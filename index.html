@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>ChallengeAlura</title>
+  <link href="reset.css" rel="stylesheet" type = "text/css"/>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="cuerpo">
+      <section class="entradadatos">
+    <header>
+    <img src="https://aprende.goodneighbors.cl/wp-content/uploads/2022/02/ONE_logo_rgb-768x408.png" alt="Logo Oracle ONE">
+    <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/dibk1ba07iflqhldupuz" alt="Logo Alura">
+  </header>
+  <main>
+    <form>
+      <label for="entradaTexto"></label>
+      <textarea type="text" id="entradaTexto" class="entradatexto" placeholder="Ingrese el texto aquí" required></textarea>
+      <div >
+        <img class="SimboloAlert"src="Vector.png" alt="alerta">
+        <p class="alerta">Solo letras minúsculas y sin acentos no sean tramposillos</p>
+      </div>
+      <div class="btn">
+        <input type="button" value="ENCRIPTAR" id="btnEnc">    
+        <input type="button" value="DESENCRIPTAR" id="btnDesnc">   
+      </div>
+    </form>
+
+
+  </main>
+  </section>
+  <section class="respuesta">
+    <div class="mensaje">
+     <p class="resultado">Ningún mensaje encontrado</p>
+      <div class="noEncontrado">
+      <p class="minimensaje">Ingresa el texto que desees encriptar o desencriptar</p>
+      <img src="BUSCAR.png" class="imgbuscador">
+      </div>
+      <input type="button" value="COPIAR" class="btnCopy">
+    </div>
+     
+  </section>    
+  </div>
+
+ 
+  <script type="text/javascript"src="script.js" theme="dark" position="bottom-right"></script>
+
+</body>
+
+</html>
